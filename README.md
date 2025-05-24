@@ -1,5 +1,22 @@
-** Install Degit **
-```npm install -g degit
+# 🚀 Toikit NodeJS Starter
 
-** Download project starter **
-```degit git@github.com:toikit/nodejs-starter.git toikit-nodejs-project
+A fast starter kit for NodeJS projects, optimized for structure and ready to scale with a modular architecture.
+
+## 📦 Install Degit
+
+First, Install `degit` if not exits on your computer:
+
+```bash
+npm install -g degit
+```
+
+## 📦 Install Toikit project starter
+```bash
+degit toikit/nodejs-starter toikit-nodejs-project
+```
+
+## Install and build project
+```bash
+npm install
+npm run build
+```
