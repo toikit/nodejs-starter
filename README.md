@@ -12,7 +12,7 @@ npm install -g degit
 
 ## 📦 Install Toikit project starter
 ```bash
-degit toikit/nodejs-starter toikit-nodejs-project
+degit toikit/toikit-starter toikit-project
 ```
 
 ## Install and build project
