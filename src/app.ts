@@ -1,4 +1,4 @@
-import { config, app as setApp, setRoot } from '@toikit/toikit';
+import { setConfig, app as setApp, setRoot } from '@toikit/toikit';
 import express from 'express';
 import dotenv from 'dotenv';
 import http from 'http';
@@ -13,7 +13,7 @@ import systemConfig from './config';
 const exec = promisify(execCallback);
 
 setRoot(__dirname);
-config(systemConfig);
+setConfig(systemConfig);
 dotenv.config();
 
 export const start = (config) => {
