@@ -16,6 +16,7 @@
     "@toikit/toikit": "^1.0.0",
     "axios": "^1.7.4",
     "copyfiles": "^2.4.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.10",
     "express": "^4.18.2"
